@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/istockphoto.jpg);
+    background-repeat: repeat-y;
+    background-size: 100vw auto;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+#home {
+    height: 100vh;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+#Home {
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: 0px 35px;
+    height: 75vh;
+    padding: 40px;
+    margin-top: 3rem;
+    border-radius: 12px;
+}
+
+#bg_1 {
+    width: auto;
+    height: 75vh;
+    background-color: rgba(0, 0, 0);
+    border-radius: 12px;
+}
+
+#bg_2 {
+    color: white;
+    height: 75vh;
+    text-align: center;
+    background-image: url(../images/Background_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120vh;
+    opacity: 0.9;
+
+}
+
+#bg_2 h1 {
+    font-size: 3.5rem;
+    padding-top: 12rem;
+    margin-bottom: 2rem;
+}
+
+#bg_2 p {
+    font-size: 22px;
+    color: white;
+    font-weight: 900;
+}
+
+#about {
+    height: 100vh;
+    /* padding: 100px; */
+    background-image: url(../images/About_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 5rem 5rem;
+    margin: 6rem 10rem;
+    line-height: 35px;
+    border-radius: 12px;
+}
+
+#bg_about {
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#info h1 {
+    color: darkmagenta;
+}
+
+#plant {
+    border-radius: 12px;
+}
+
+#plant_disease {
+    padding: 20px;
+}
+
+#Plant {
+    background-image: url(../images/About_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 2rem 3rem;
+    margin: 4rem 8rem;
+    height: 100vh;
+    border-radius: 12px;
+}
+
+#bg_plant {
+    background-color: papayawhip;
+    padding: 2rem;
+    margin: 8rem 2rem;
+    height: auto;
+}
+
+#matter {
+    line-height: 35px;
+}
+
+#matter h1 {
+    color: purple;
+    text-align: center;
+}
+#matter h3{
+    text-align: center;
+}
+
+#btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+
+#btn button {
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#prev {
+    background-image: url(../images/About_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 2rem 5rem;
+    margin: 8rem 8rem;
+    height: auto;
+    border-radius: 12px;
+}
+
+#bg_prev {
+    background-color: papayawhip;
+    padding: 2rem;
+    margin: 2rem 0rem;
+    line-height: 28px;
+}
+
+#flex_1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#bg_prev h1 {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#bg_prev h3 {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+#cen {
+    text-align: center;
+    font-size: 20px;
+}
+
+#prev_btn {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    margin: 10px 0px;
+}
+
+#prev_btn button {
+    background-color: blue;
+    border: none;
+    padding: 10px 3rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#prev_btn button a {
+    text-decoration: none;
+    color: white;
+}
+
+#Technique {
+    background-image: url(../images/About_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 2rem 4rem;
+    margin: 0rem 8rem;
+    height: 80vh;
+    border-radius: 12px;
+}
+
+#bg_Tech {
+    background-color: papayawhip;
+    padding: 2rem;
+    margin: 4rem 0rem;
+    line-height: 28px;
+}
+
+.align {
+    text-align: center;
+}
+
+#bg_Tech button {
+    position: relative;
+    left: 510px;
+    padding: 8px 12px;
+    background-color: blue;
+    border: none;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.align h1{
+    color: purple;
+}
+.align a {
+    text-decoration: none;
+    color: white;
+}
+#a1{
+    background-color: orangered;
+    margin: 0px 8rem;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}

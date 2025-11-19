@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../images/Leaf_spot.jpg);
+    font-family: sans-serif;
+}
+#bg_1{
+    background-color: rgba(242, 240, 240, 0.4);
+    height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+#bg_2{
+    background-color: papayawhip;
+    width: 70%;
+    height: auto;
+    padding: 2rem;
+    line-height: 24px;
+    margin-top: 5rem;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+}
+#img img{
+    border-radius: 12px;
+}
+#bg_2 h1{
+    color: purple;
+    margin-bottom: 10px;
+}
