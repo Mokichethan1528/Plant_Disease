@@ -7,7 +7,7 @@ body{
     font-family: sans-serif;
 }
 #bg_1{
-    background-color: rgba(242, 240, 240, 0.4);
+    background-color: rgba(242, 240, 240, 0.5);
     height: 100vh; 
     display: flex;
     align-items: center; 
@@ -19,7 +19,7 @@ body{
     height: auto;
     padding: 2rem;
     line-height: 24px;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 #img{
     display: flex;
@@ -29,7 +29,4 @@ body{
 #img img{
     border-radius: 12px;
 }
-#bg_2 h1{
-    color: purple;
-    margin-bottom: 10px;
-}
+
